@@ -289,6 +289,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     fstab.zram \
+    init.nfc.rc \
     init.insmod.sh \
     init.power.rc \
     init.qcom.rc \
