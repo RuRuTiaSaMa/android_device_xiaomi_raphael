@@ -10,6 +10,9 @@ ro.bluetooth.library_name=libbluetooth_qti.so
 ro.bluetooth.wipower=false
 vendor.bluetooth.soc=cherokee
 
+# Disable blur on app launch
+ro.launcher.blur.appLaunch=0
+
 # Display
 debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=1
