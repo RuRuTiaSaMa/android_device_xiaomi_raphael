@@ -198,3 +198,8 @@ service vendor.contexthub-hal-1-0 /vendor/bin/hw/android.hardware.contexthub@1.0
     user system
     group system
     disabled
+
+on init
+# report max frequency to unity tasks.
+    write /proc/sys/kernel/sched_lib_name "com.miHoYo.,UnityMain,libunity.so"
+    write /proc/sys/kernel/sched_lib_mask_force 255
