@@ -863,6 +863,9 @@ vendor/lib64/unnhal-acc-hvx.so
 # NFC Firmware
 vendor/lib/libsn100u_fw.so
 
+# Power-off charging daemon
+bin/charger:bin/chargeonlymode
+
 # Peripheral manager
 vendor/bin/pm-proxy
 vendor/bin/pm-service
