@@ -9,4 +9,5 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     kscope_raphael-userdebug \
+    kscope_raphael-user \
     kscope_raphael-eng
