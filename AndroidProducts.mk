@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/kscope_raphael.mk
+    $(LOCAL_DIR)/aosp_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    kscope_raphael-userdebug \
-    kscope_raphael-user \
-    kscope_raphael-eng
+    aosp_raphael-userdebug \
+    aosp_raphael-user \
+    aosp_raphael-eng
