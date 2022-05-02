@@ -156,7 +156,10 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.motor@1.0.vendor
 
 PRODUCT_PACKAGES += \
-    libstdc++.vendor
+    libstdc++.vendor 
+
+PRODUCT_PACKAGES += \
+    GCamGOPrebuilt
 
 # Component overrides
 PRODUCT_COPY_FILES += \
