@@ -1,4 +1,9 @@
-allow zygote adsprpcd_file:dir { search getattr read };
-allow zygote self:capability kill;
-allow zygote system_file:dir write;
-r_dir_file(zygote, system_file)
+ allow {
+  devicesettings_app
+  priv_app
+  platform_app
+  system_app
+  untrusted_app
+  vendor_timeservice_app 
+  radio
+} zygote:unix_stream_socket { getopt };
