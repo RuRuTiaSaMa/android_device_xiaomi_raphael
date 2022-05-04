@@ -1,9 +1,14 @@
- allow {
+allow {
   devicesettings_app
   priv_app
   platform_app
   system_app
+  traceur_app
   untrusted_app
   vendor_timeservice_app 
+  vendor_qtelephony
   radio
+  shell
 } zygote:unix_stream_socket { getopt };
+
+r_dir_file(zygote, system_file)

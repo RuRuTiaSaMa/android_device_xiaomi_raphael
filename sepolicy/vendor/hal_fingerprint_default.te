@@ -41,3 +41,7 @@ add_hwservice(hal_fingerprint_default, hal_fingerprint_hwservice_xiaomi)
 
 # Allow fp HAL to sent hint
 hal_client_domain(hal_fingerprint_default, hal_power)
+
+binder_call(hal_fingerprint_default, vendor_hal_perf_default)
+
+dontaudit hal_fingerprint_default default_prop:file { read };

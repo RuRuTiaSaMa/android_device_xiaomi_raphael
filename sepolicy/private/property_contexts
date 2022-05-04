@@ -6,7 +6,7 @@ persist.bootanim.color4               u:object_r:bootanim_system_prop:s0
 
 # Global
 ro.boot.hwc              u:object_r:exported_default_prop:s0
-ro.build.flavor          u:object_r:build_prop:s0
+ro.build.flavor          u:object_r:exported_default_prop:s0
 ro.carrier.name          u:object_r:exported_default_prop:s0
 ro.miui.cust_variant     u:object_r:exported_default_prop:s0
 ro.product.marketname    u:object_r:build_prop:s0
@@ -28,3 +28,6 @@ settingsdebug.instant.packages u:object_r:settingslib_prop:s0
 
 # Hardware
 ro.hardware.chipname           u:object_r:exported_default_prop:s0
+
+# Ultrasound
+elliptic.ultrasound.multiple_mics.    u:object_r:elliptic_ultrasound_prop:s0
