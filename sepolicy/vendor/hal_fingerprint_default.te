@@ -38,3 +38,6 @@ allow hal_fingerprint_default vendor_sysfs_spss:file { open read };
 
 get_prop(hal_fingerprint_default, vendor_fod_prop);
 add_hwservice(hal_fingerprint_default, hal_fingerprint_hwservice_xiaomi)
+
+# Allow fp HAL to sent hint
+hal_client_domain(hal_fingerprint_default, hal_power)
