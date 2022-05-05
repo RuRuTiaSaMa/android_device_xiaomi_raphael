@@ -1,9 +1,4 @@
-# Audio
-audio.soundtrigger.debug.urser_id               u:object_r:vendor_audio_prop:s0
-audio_hal.in_period_size                        u:object_r:vendor_audio_prop:s0
-
 # Camera
-camera.                                    u:object_r:vendor_camera_prop:s0
 persist.camera.                            u:object_r:vendor_camera_prop:s0
 persist.vendor.camera                      u:object_r:vendor_camera_prop:s0
 persist.vednor.camera.                     u:object_r:vendor_camera_prop:s0
@@ -16,10 +11,8 @@ ro.camera.req.fmq.                         u:object_r:vendor_camera_prop:s0
 persist.vendor.dolby.loglevel                 u:object_r:vendor_dolby_loglevel_prop:s0
 
 # Fingerprint
-gf.debug.                                       u:object_r:vendor_fp_prop:s0
 persist.vendor.fpc.                             u:object_r:vendor_fp_prop:s0
 persist.vendor.sys.fp.                          u:object_r:vendor_fp_prop:s0
-persist.sys.fp.                                 u:object_r:vendor_fp_prop:s0
 ro.hardware.fp                                  u:object_r:vendor_fp_prop:s0
 vendor.fps_hal.                                 u:object_r:vendor_fp_prop:s0
 ro.boot.fpsensor                                u:object_r:vendor_fp_prop:s0
@@ -49,13 +42,6 @@ persist.vendor.motor.                           u:object_r:vendor_motor_prop:s0
 
 # RIL
 ro.vendor.ril                                   u:object_r:vendor_public_vendor_default_prop:s0
-
-# Sensor
-persist.sensor.                                 u:object_r:vendor_sensors_prop:s0
-invn.hal.data.                                  u:object_r:vendor_sensors_prop:s0
-invn.hal.entry.                                 u:object_r:vendor_sensors_prop:s0
-invn.hal.debug.                                 u:object_r:vendor_sensors_prop:s0
-invn.hal.verbose.                               u:object_r:vendor_sensors_prop:s0
 
 # Thermal
 vendor.sys.thermal.                             u:object_r:vendor_thermal_normal_prop:s0
