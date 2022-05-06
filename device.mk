@@ -324,6 +324,13 @@ PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm \
     vendor.lineage.livedisplay@2.1-service.raphael
 
+# Matlog
+PRODUCT_PROVIDE_OMNIROM_MATLOG := true
+ifeq ($(PRODUCT_PROVIDE_OMNIROM_MATLOG), true)
+PRODUCT_PACKAGES += \
+     Matlog
+endif
+
 # Media
 PRODUCT_PACKAGES += \
     libmm-omxcore \
