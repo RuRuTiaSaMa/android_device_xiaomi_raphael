@@ -165,5 +165,9 @@ telephony.lteOnCdmaDevice=1
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=SM8150
 
+# USB
+vendor.usb.diag.func.name=diag
+vendor.usb.use_ffs_mtp=0
+
 # WiFi Display
 persist.sys.wfd.virtual=0
